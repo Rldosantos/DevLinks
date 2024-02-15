@@ -9,10 +9,16 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     // se estiver light mode, adicionar a imagem light
     img.setAttribute("src", "./assets/avatar-light.png")
-    img.setAttribute("alt", "Foto de Mayk Brito sem dark mode ativo")
+    img.setAttribute(
+      "alt",
+      "Avatar de Rldosantos como um anão druida sem o dark mode ativo"
+    )
   } else {
     // se estiver sem light mode, manter a imagem normal
     img.setAttribute("src", "./assets/avatar.png")
-    img.setAttribute("alt", "Foto de Mayk Brito com dark mode ativo")
+    img.setAttribute(
+      "alt",
+      "Avatar de Rldosantos como um anão patrulheiro com o dark mode ativo"
+    )
   }
 }
